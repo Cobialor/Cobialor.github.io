@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>quadratic-graphs</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+
+<!-- Beginining of modal -->
+<div class="w3-row w3-margin-top">
+  <div class="w3-col w3-border w3-border-white" style="width : 12%" >
+          <h1 class="w3-center w3-padding" style="position:absolute; top:-15px; left:35px;">
+            <a href="https://clcjanalytics.com"><b>Home</b></a></h1>
+  </div>
+  <div class="w3-col w3-border w3-border-white" style="position:absolute; top: 5px; left:215px;">
+      <button onclick="document.getElementById('id01').style.display='block'" 
+      class="w3-button w3-black" style="height: 50px; padding-top: 0%; 
+      padding-bottom: 0%;"><h2 style="padding-top: 0%; padding-bottom: 0%; margin-top: 0%;">Click to learn how to use this App</h2></button>
+
+</div>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content  w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <h3><span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">Close</span></h3>
+        <h2><p class="w3-center">HOW TO USE THIS APP</p></h2>
+      </header>
+      <div class="w3-container">
+        <!-- About Section -->
+<div class="w3-card-4 w3-margin-top w3-light-grey" style="font-size:20px; padding-left:20px; padding-right:20px; color:#fff;">
+ 
+      <p>On your keyboard press the control button and the - button simultaneously to change the zoom of your browser to 50%.</p>
+      
+      <p>To change the zoom on your mobile device scroll with two fingers.</p>
+
+
+      <p>1. Type or copy and Paste your Comma Seperated Values into the text box.</p>
+
+      <p>e.g 2,4,11,22,18,36,21,42 etc...the total should be even.</p>
+
+      <p>2. Plot the data by clicking the Submit button.</p>
+
+      <p>Mobile device users should tap the graph area with a finger after clicking the submit button to display the plot.</p>
+
+      <p>3. Drag the square boxes attached to the ends of the line to analyse your data.</p>
+
+      <p>4. To plot a new data set reload or refresh the web page.</p>
+      
+      <p>After you have finished using this website, press the control button and the + button simultaneously to restore the zoom of your browser back to 100%.</p>
+</div>
+    </div>
+  </div>
+</div>
+<!-- end of modal -->
+
+
+    
+    <script src="index5.js"></script> </body>
+</html>
